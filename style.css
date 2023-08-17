@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
 /*Section 1*/
+
 .body{
     display: flex;
     flex-direction: column;
 }
 .header {
     border: ;
+    font-family: 'Roboto', sans-serif;
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    
     padding: 20px;
 }
 
@@ -18,9 +21,10 @@
 
 .logo {
     font-size: 24px;
+    font-weight: 900;
     color: #f9faf8;
     display: flex;
-    margin-left: 40px;
+    margin-left: 75px;
 }
 
 .links-header{
@@ -98,9 +102,44 @@ button {
     padding: 10px 20px;
     
 }
-img {
-    width: 400px;
+.hero-imagen {
+    width: 420px;
     height:auto;
     
 }
 
+/* Section 3 */
+
+.title-s3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.contenedor-s3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(108, 117, 128);
+    font-size: 18px;
+
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    align-items: center;
+    text-align: center;
+    
+}
+.fig {
+    width: 230px;
+    border: 4px solid rgb(59, 130, 246);
+    border-radius: 10px;
+}
