@@ -1,0 +1,49 @@
+/*Section 1*/
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rebeccapurple;
+    padding: 10px;
+}
+
+.logo, .links-header, ul{
+    border: 
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    margin-left: 40px;
+}
+
+.links-header{
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    margin-left: 30p;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+    margin-right: 150px;
+}
+
+/*Section 2*/
+
+.hero-content {
+    border: 1px solid red;
+    display: flex;
+}
+
