@@ -2,9 +2,10 @@
 
 /*Section 1*/
 
-.body{
+body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 .header {
     border: ;
@@ -123,7 +124,7 @@ button {
 .contenedor-s3 {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 32px;
 }
 
 .card{
@@ -144,7 +145,7 @@ button {
     border-radius: 10px;
 }
 
-/* Section 3 */
+/* Section 4 */
 
 .section-4{
     border: ;
@@ -177,19 +178,20 @@ button {
     font-weight: bold;
 }
 
-/* Section 4 */
+/* Section 5 */
 
 .section-5 {
     background-color: #ffffff;
-   
-    padding:50px 20px ;
+    padding: 70px 20px ;
 }
 
 .cont-5 {
+    font-family: 'Roboto', sans-serif;
     width: 900px;
     background-color: #3b82f6;
     border-radius: 10px;
-    padding: 15px 30px;
+    padding: 35px 30px;
+    padding-left: 85px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;    
@@ -197,15 +199,42 @@ button {
 
 .text-action {
     color: #e5e7eb;
-    flex: 1;
+    font-size: 18px;
+    flex: 3;
 }
+h3 {
+    font-size: 23px;
+    margin: 15px 0;
+    margin-bottom: 5px;
+} 
+/*.text-action, .sign-up2 {border: 1px solid red;}*/
 
-.text-action, .sign-up2 {border: 1px solid red;}
+.sign-up2 {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
 
 .but-2 { 
     border: 2px solid #ffffff;
+    
 }
 
-.sign-up2 {
+.under {
+    margin-bottom: 10px;
+}
+
+/* Section 6 */
+
+.footer {
+    background-color: #1f2937 ;
+    color: #e5e7eb ;
+    height: 65px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    
 }
