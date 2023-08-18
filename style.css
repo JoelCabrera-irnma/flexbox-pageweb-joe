@@ -143,3 +143,69 @@ button {
     border: 4px solid rgb(59, 130, 246);
     border-radius: 10px;
 }
+
+/* Section 3 */
+
+.section-4{
+    border: ;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    margin-top: 60px;
+}
+
+.cont-4 {
+    border: 1px  ;
+    width: 800px;
+    font-family: 'Roboto', sans-serif;
+}
+.text-cita {
+    border: 1px  ;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 0;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.autor{
+    border: 1px ;
+    color: #1f2937;
+    font-size: 21px;
+    margin-left: 500px;
+    font-weight: bold;
+}
+
+/* Section 4 */
+
+.section-5 {
+    background-color: #ffffff;
+   
+    padding:50px 20px ;
+}
+
+.cont-5 {
+    width: 900px;
+    background-color: #3b82f6;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.text-action {
+    color: #e5e7eb;
+    flex: 1;
+}
+
+.text-action, .sign-up2 {border: 1px solid red;}
+
+.but-2 { 
+    border: 2px solid #ffffff;
+}
+
+.sign-up2 {
+    align-items: center;
+}
